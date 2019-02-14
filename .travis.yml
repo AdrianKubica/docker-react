@@ -3,6 +3,9 @@ sudo: required
 services:
   - docker
 
+notifications:
+  slack: privateuser-workspace:5hybgvvnXJOVAuc01WiKfrmX
+
 before_install:
   - docker build -t adriankubica/docker-react -f Dockerfile.dev .
 
