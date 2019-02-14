@@ -11,6 +11,7 @@ class App extends Component {
           <p>
             Hi there Adrian! How u doing?
             Yet antoher testing :)
+            Test GitHub!
           </p>
           <a
             className="App-link"
